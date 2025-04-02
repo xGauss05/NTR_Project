@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -438,6 +438,7 @@ GameObject:
   - component: {fileID: 1029776989}
   - component: {fileID: 1029776992}
   - component: {fileID: 1029776991}
+  - component: {fileID: 1029776993}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -496,9 +497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb6f5ff64f93844986733cebe6b0330, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: {x: 0, y: 0}
+  sensitivity: {x: 400, y: 400}
   camPivot: {fileID: 1592311246}
-  camera: {fileID: 330585546}
 --- !u!114 &1029776992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,6 +512,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 2
+--- !u!54 &1029776993
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029776988}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
 --- !u!1 &1405135194
 GameObject:
   m_ObjectHideFlags: 0
