@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour
     float xRotation;
     float yRotation;
 
-    [SerializeField] Transform camPivot;
+    [SerializeField] Transform camTransform;
 
     private void Awake()
     {
@@ -26,7 +26,7 @@ public class CameraController : MonoBehaviour
 
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        camPivot.localRotation = Quaternion.Euler(xRotation, 0, 0);
+        camTransform.localRotation = Quaternion.Euler(xRotation, 0, 0);
         transform.localRotation = Quaternion.Euler(0, yRotation, 0);
     }
 }
