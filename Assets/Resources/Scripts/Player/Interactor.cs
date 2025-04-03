@@ -11,12 +11,28 @@ public class Interactor : MonoBehaviour
 
     void Update()
     {
+        if (DialogueEditor.ConversationManager.Instance.IsConversationActive)
+        {
+            GetComponent<PlayerMovement>().enabled = false;
+            GetComponent<CameraController>().enabled = false;
+
+            Cursor.lockState = CursorLockMode.None;
+
+            SetInteractText(false);
+
+            return;
+        }
+
+        GetComponent<PlayerMovement>().enabled = true;
+        GetComponent<CameraController>().enabled = true;
+
+        Cursor.lockState = CursorLockMode.Locked;
+
         UpdateInteractText();
 
         if (Input.GetKeyDown(KeyCode.E))
         {
             GetInteractable()?.Interact(this);
-            SetInteractText(false);
         }
     }
 
