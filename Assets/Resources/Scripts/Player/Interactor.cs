@@ -1,0 +1,55 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Interactor : MonoBehaviour
+{
+    [SerializeField] private Transform playerCamera;
+    [SerializeField] float interactDistance = 1.5f;
+
+    [SerializeField] GameObject interactText;
+
+    void Update()
+    {
+        UpdateInteractText();
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            GetInteractable()?.Interact(this);
+            SetInteractText(false);
+        }
+    }
+
+    public void SetInteractText(bool active, string text = "")
+    {
+        interactText.SetActive(active);
+
+        if (text == "") { return; }
+
+        TMPro.TMP_Text textToChange = interactText.GetComponent<TMPro.TMP_Text>();
+
+        textToChange.text = text;
+
+        interactText.GetComponent<RectTransform>().sizeDelta = new Vector2(textToChange.preferredWidth, textToChange.preferredHeight);
+    }
+
+    void UpdateInteractText()
+    {
+        if (Physics.Raycast(playerCamera.position, playerCamera.forward, out RaycastHit hitInfo, interactDistance, ~0, QueryTriggerInteraction.Ignore) &&
+            hitInfo.transform.GetComponent<IInteractable>() != null)
+        {
+            SetInteractText(true, hitInfo.transform.GetComponent<IInteractable>().interactableText);
+        }
+        else
+        {
+            SetInteractText(false);
+        }
+    }
+
+    IInteractable GetInteractable()
+    {
+        if (!Physics.Raycast(playerCamera.position, playerCamera.forward, out RaycastHit hitInfo, interactDistance, ~0, QueryTriggerInteraction.Ignore)) return null;
+
+        return hitInfo.collider.gameObject.GetComponent<IInteractable>();
+    }
+}
