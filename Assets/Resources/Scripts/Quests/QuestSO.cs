@@ -25,6 +25,7 @@ public class QuestObjective
 }
 
 [CreateAssetMenu(fileName = "NewQuest", menuName = "ScriptableObject/Quest")]
+[Serializable]
 public class QuestSO : ScriptableObject
 {
     public string questName;

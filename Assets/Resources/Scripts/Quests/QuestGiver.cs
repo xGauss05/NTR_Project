@@ -6,7 +6,7 @@ public class QuestGiver : MonoBehaviour
 {
     public QuestSO questToGive;
 
-    public void GiveQuest(GameObject player)
+    public void GiveQuest()
     {
         if (QuestManager.Singleton != null)
         {
