@@ -6,8 +6,7 @@ public class QuestManager : MonoBehaviour
 {
     public static QuestManager Singleton { get; private set; }
 
-    List<QuestSO> quests;
-    List<QuestSO> completedQuests;
+    public List<QuestSO> activeQuests = new List<QuestSO>();
 
     private void Awake()
     {
@@ -21,16 +20,32 @@ public class QuestManager : MonoBehaviour
         {
             Singleton = this;
         }
-
         DontDestroyOnLoad(this.gameObject);
 
         #endregion Singleton
     }
-    
-    public void AddQuest(QuestSO questSO)
+
+    public void AddQuest(QuestSO quest)
     {
-        questSO.quest.progress = QuestSO.QuestProgress.Started;
-        quests.Add(questSO);
+        if (!activeQuests.Contains(quest))
+        {
+            activeQuests.Add(quest);
+            Debug.Log($"Quest added: {quest.questName}");
+        }
     }
 
+    public void ReportProgress(string objectiveName, int amount)
+    {
+        foreach (var quest in activeQuests)
+        {
+            foreach (var objective in quest.objectives)
+            {
+                if (objective.objectiveName == objectiveName && !objective.isComplete)
+                {
+                    objective.AddProgress(amount);
+                    Debug.Log($"Progress added to {objectiveName}: {objective.currentAmount}/{objective.requiredAmount}");
+                }
+            }
+        }
+    }
 }

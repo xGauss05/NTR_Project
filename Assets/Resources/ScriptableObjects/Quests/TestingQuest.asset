@@ -10,5 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: NewQuest
+  m_Name: TestingQuest
   m_EditorClassIdentifier: Assembly-CSharp::QuestSO
+  questName: Placeholder quest
+  description: Testing quest
+  objectives:
+  - objectiveName: Testing progress
+    requiredAmount: 0
+    currentAmount: 3
+    isComplete: 0

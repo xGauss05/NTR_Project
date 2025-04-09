@@ -1,31 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-[CreateAssetMenu(fileName = "NewQuest", menuName = "ScriptableObjects/Quest")]
+[Serializable]
+public class QuestObjective
+{
+    public string objectiveName;
+    public int requiredAmount;
+    public int currentAmount;
+
+    public bool isComplete;
+
+    public void checkProgress()
+    {
+        isComplete = currentAmount >= requiredAmount;
+    }
+
+    public void AddProgress(int amount)
+    {
+        currentAmount += amount;
+        checkProgress();
+    }
+}
+
+[CreateAssetMenu(fileName = "NewQuest", menuName = "ScriptableObject/Quest")]
 public class QuestSO : ScriptableObject
 {
-    public enum QuestProgress
+    public string questName;
+    [TextArea] public string description;
+    public QuestObjective[] objectives;
+    public bool isCompleted => AllObjectivesCompleted();
+
+    private bool AllObjectivesCompleted()
     {
-        Not_Started,
-        Started,
-        Completed,
-    }
+        foreach (var objective in objectives)
+        {
+            if (!objective.isComplete) return false;
+        }
 
-    [System.Serializable]
-    public class Quest
-    {
-        public string name;
-        public QuestProgress progress;
-
-        [TextArea(2, 5)]
-        public string description;
-    }
-
-    public Quest quest;
-
-    public void AddQuest() 
-    {
-        QuestManager.Singleton.AddQuest(this);
+        return true;
     }
 }
