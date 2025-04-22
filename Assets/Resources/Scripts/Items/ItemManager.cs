@@ -24,7 +24,7 @@ public class ItemManager : MonoBehaviour
 
         #endregion Singleton
 
-        foreach(var item in startingItems)
+        foreach (var item in startingItems)
         {
             GiveItemToPlayer(item);
         }
@@ -36,6 +36,9 @@ public class ItemManager : MonoBehaviour
 
         _playerInventory.AddItem(item);
     }
+
+    public bool CheckItemInPlayer(ItemSO item)
+    { return _playerInventory.IsInInventory(item.itemID); }
 
     public void RemoveItemFromPlayer(uint itemID)
     {

@@ -8,8 +8,6 @@ public class Inventory : MonoBehaviour
     public void AddItem(ItemSO itemToAdd)
     {
         _inventory.Add(itemToAdd.itemID, itemToAdd);
-
-        Debug.Log(_inventory[0].itemName);
     }
 
     public void RemoveItem(uint itemID)
