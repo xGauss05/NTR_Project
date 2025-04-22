@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Box
   description: A big box
+  itemID: 0
+  inInventory: 1
