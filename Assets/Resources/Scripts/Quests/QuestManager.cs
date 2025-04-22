@@ -12,6 +12,7 @@ public class QuestManager : MonoBehaviour
     // Events ------------------------------------------------------------------------------------------
     public UnityEvent OnQuestListChanged = new UnityEvent();
     public UnityEvent OnQuestProgressUpdated = new UnityEvent();
+    public UnityEvent OnQuestCompletion = new UnityEvent();
 
     void Awake()
     {
@@ -50,6 +51,36 @@ public class QuestManager : MonoBehaviour
         }
     }
 
+    public void ReportProgress(string objectiveName)
+    {
+        List<QuestSO> removeQuests = new List<QuestSO>();
+
+        foreach (var quest in activeQuests)
+        {
+            foreach (var objective in quest.objectives)
+            {
+                if (objective.objectiveName == objectiveName && !objective.isComplete)
+                {
+                    objective.AddProgress(1);
+                    Debug.Log($"Progress added to {objectiveName}: {objective.currentAmount}/{objective.requiredAmount}");
+                    OnQuestProgressUpdated.Invoke();
+                }
+            }
+
+            if (quest.isCompleted)
+            {
+                removeQuests.Add(quest);
+            }
+        }
+
+        foreach (var quest in removeQuests)
+        {
+            RemoveQuest(quest);
+            Debug.Log($"Quest completed: {quest.questName}");
+            OnQuestCompletion.Invoke();
+        }
+    }
+
     public void ReportProgress(string objectiveName, int amount)
     {
         foreach (var quest in activeQuests)
@@ -65,4 +96,6 @@ public class QuestManager : MonoBehaviour
             }
         }
     }
+
+
 }

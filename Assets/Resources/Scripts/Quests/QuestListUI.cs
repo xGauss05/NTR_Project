@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class QuestListUI : MonoBehaviour
 {
 
     [SerializeField] GameObject questItemPrefab;
-    [SerializeField] Transform questListContent;
+    [SerializeField] GameObject content;
+
+    
 
     List<GameObject> currentQuestItems = new List<GameObject>();
 
@@ -17,6 +20,7 @@ public class QuestListUI : MonoBehaviour
         // Initialize events
         QuestManager.Singleton.OnQuestListChanged.AddListener(UpdateUI);
         QuestManager.Singleton.OnQuestProgressUpdated.AddListener(UpdateUI);
+        QuestManager.Singleton.OnQuestCompletion.AddListener(UpdateUI);
 
         UpdateUI();
     }
@@ -24,6 +28,7 @@ public class QuestListUI : MonoBehaviour
     public void UpdateUI()
     {
         QuestManager qManager = QuestManager.Singleton;
+
 
         // Clean UI
         foreach (var item in currentQuestItems)
@@ -35,11 +40,10 @@ public class QuestListUI : MonoBehaviour
         // Create new elements inside the list
         foreach (var quest in qManager.activeQuests)
         {
-            GameObject questItem = Instantiate(questItemPrefab, questListContent);
+            GameObject questItem = Instantiate(questItemPrefab, content.transform);
             TextMeshProUGUI questText = questItem.GetComponentInChildren<TextMeshProUGUI>();
 
-            string fullText = $"{quest.questName}";
-            //string description = $"{quest.description}";
+            string fullText = $"{quest.questName}\n{quest.description}";
 
             //foreach (var obj in quest.objectives)
             //{
@@ -49,5 +53,8 @@ public class QuestListUI : MonoBehaviour
             questText.text = fullText;
             currentQuestItems.Add(questItem);
         }
+
+        Canvas.ForceUpdateCanvases();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(content.GetComponent<RectTransform>());
     }
 }

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c97facce829d54aa3f306dfe208edf, type: 3}
   m_Name: TestQuest
   m_EditorClassIdentifier: 
-  questName: Testing Quest
-  description: asdasd
+  questName: Say no to Manolo
+  description: You should answer no to Manolo.
   objectives:
-  - objectiveName: asd
-    requiredAmount: 0
-    currentAmount: 5
+  - objectiveName: Say no to Manolo
+    requiredAmount: 1
+    currentAmount: 0
     isComplete: 0
