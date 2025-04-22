@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c97facce829d54aa3f306dfe208edf, type: 3}
   m_Name: TestQuest
   m_EditorClassIdentifier: 
-  questName: Testing
+  questName: Testing Quest
   description: asdasd
   objectives:
   - objectiveName: asd

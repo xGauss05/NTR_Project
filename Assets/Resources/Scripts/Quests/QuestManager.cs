@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class QuestManager : MonoBehaviour
 {
@@ -8,7 +9,11 @@ public class QuestManager : MonoBehaviour
 
     public List<QuestSO> activeQuests = new List<QuestSO>();
 
-    private void Awake()
+    // Events ------------------------------------------------------------------------------------------
+    public UnityEvent OnQuestListChanged = new UnityEvent();
+    public UnityEvent OnQuestProgressUpdated = new UnityEvent();
+
+    void Awake()
     {
         #region Singleton
 
@@ -31,6 +36,17 @@ public class QuestManager : MonoBehaviour
         {
             activeQuests.Add(quest);
             Debug.Log($"Quest added: {quest.questName}");
+            OnQuestListChanged.Invoke();
+        }
+    }
+
+    public void RemoveQuest(QuestSO quest)
+    {
+        if (activeQuests.Contains(quest))
+        {
+            activeQuests.Remove(quest);
+            Debug.Log($"Quest removed: {quest.questName}");
+            OnQuestListChanged.Invoke();
         }
     }
 
@@ -44,6 +60,7 @@ public class QuestManager : MonoBehaviour
                 {
                     objective.AddProgress(amount);
                     Debug.Log($"Progress added to {objectiveName}: {objective.currentAmount}/{objective.requiredAmount}");
+                    OnQuestProgressUpdated.Invoke();
                 }
             }
         }
