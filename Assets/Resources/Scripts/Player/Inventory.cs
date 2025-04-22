@@ -9,7 +9,7 @@ public class Inventory : MonoBehaviour
     {
         _inventory.Add(itemToAdd.itemID, itemToAdd);
 
-        Debug.Log(_inventory.Count);
+        Debug.Log(_inventory[0].itemName);
     }
 
     public void RemoveItem(uint itemID)
