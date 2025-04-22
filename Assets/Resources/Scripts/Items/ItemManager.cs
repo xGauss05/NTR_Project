@@ -3,9 +3,8 @@ using UnityEngine;
 
 public class ItemManager : MonoBehaviour
 {
-    private Dictionary<uint, ItemSO> items;
+    [SerializeField] private Inventory _playerInventory;
 
-    public ItemSO[] itemPool;
     public static ItemManager Singleton;
 
     private void Awake()
@@ -24,20 +23,18 @@ public class ItemManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
         #endregion Singleton
-
-        InitializeItemDictionary();
     }
 
-    public bool RequestItem(uint itemKey)
+    public void GiveItemToPlayer(ItemSO item)
     {
-        if (!items.ContainsKey(itemKey)) return false;
+        if (item.inInventory) return;
 
-        return true;
+        _playerInventory.AddItem(item);
+        item.inInventory = true;
     }
 
-    private void InitializeItemDictionary()
+    public void RemoveItemFromPlayer(uint itemID)
     {
-        for (int i = 0; i < itemPool.Length; i++)
-        { items.Add((uint)i, itemPool[i]); }
+        _playerInventory.RemoveItem(itemID);
     }
 }

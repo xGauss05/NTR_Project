@@ -5,4 +5,7 @@ public class ItemSO : ScriptableObject
 {
     public string itemName;
     public string description;
+
+    public uint itemID;
+    public bool inInventory;
 }
