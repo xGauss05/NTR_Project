@@ -1,9 +1,9 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemManager : MonoBehaviour
 {
     [SerializeField] private Inventory _playerInventory;
+    [SerializeField] private ItemSO[] startingItems;
 
     public static ItemManager Singleton;
 
@@ -23,18 +23,23 @@ public class ItemManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
         #endregion Singleton
+
+        foreach(var item in startingItems)
+        {
+            GiveItemToPlayer(item);
+        }
     }
 
     public void GiveItemToPlayer(ItemSO item)
     {
-        if (item.inInventory) return;
+        if (_playerInventory.IsInInventory(item.itemID)) return;
 
         _playerInventory.AddItem(item);
-        item.inInventory = true;
     }
 
     public void RemoveItemFromPlayer(uint itemID)
     {
-        _playerInventory.RemoveItem(itemID);
+        if (_playerInventory.IsInInventory(itemID))
+            _playerInventory.RemoveItem(itemID);
     }
 }

@@ -16,4 +16,9 @@ public class Inventory : MonoBehaviour
     {
         _inventory.Remove(itemID);
     }
+
+    public bool IsInInventory(uint itemID)
+    {
+        return _inventory.ContainsKey(itemID);
+    }
 }

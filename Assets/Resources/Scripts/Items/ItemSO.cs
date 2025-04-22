@@ -7,5 +7,4 @@ public class ItemSO : ScriptableObject
     public string description;
 
     public uint itemID;
-    public bool inInventory;
 }
