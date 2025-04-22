@@ -5,11 +5,14 @@ using DialogueEditor;
 
 public class NPC_Test : MonoBehaviour, IInteractable
 {
-    public string interactableText => "Talk to Manolo";
+    [SerializeField] string interactText;
+    public string interactableText => interactText;
+
+    [SerializeField] NPCConversation conversationToShow;
 
     public void Interact(Interactor interactor)
     {
-        Debug.Log("Talking to Manolo");
-        ConversationManager.Instance.StartConversation(GameObject.Find("Conversation test").GetComponent<NPCConversation>());
+        Debug.Log("Doing action: " + interactText);
+        ConversationManager.Instance.StartConversation(conversationToShow);
     }
 }
