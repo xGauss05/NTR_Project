@@ -3,7 +3,7 @@ using UnityEngine;
 public class ItemManager : MonoBehaviour
 {
     [SerializeField] private Inventory _playerInventory;
-    [SerializeField] private ItemSO[] startingItems;
+    [SerializeField] private ItemSO[] _startingItems;
 
     public static ItemManager Singleton;
 
@@ -24,7 +24,7 @@ public class ItemManager : MonoBehaviour
 
         #endregion Singleton
 
-        foreach (var item in startingItems)
+        foreach (var item in _startingItems)
         {
             GiveItemToPlayer(item);
         }
