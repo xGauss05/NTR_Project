@@ -14,6 +14,6 @@ public class ItemInteractable : MonoBehaviour, IInteractable
     public void Interact(Interactor interactor)
     {
         ItemManager.Singleton.GiveItemToPlayer(item);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
