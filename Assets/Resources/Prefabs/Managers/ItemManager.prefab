@@ -44,5 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f20046f1ef45104296d62269a57d3ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerInventory: {fileID: 0}
-  startingItems: []
+  _playerInventory: {fileID: 6165166305456700655, guid: b77fc36bb0eb15b4798817fe7b439fb0,
+    type: 3}
+  _startingItems: []
