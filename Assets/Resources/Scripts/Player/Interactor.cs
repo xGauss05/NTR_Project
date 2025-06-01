@@ -26,7 +26,8 @@ public class Interactor : MonoBehaviour
         GetComponent<PlayerMovement>().enabled = true;
         GetComponent<CameraController>().enabled = true;
 
-        Cursor.lockState = CursorLockMode.Locked;
+        if (!PauseMenu.Singleton.gamePaused)
+            Cursor.lockState = CursorLockMode.Locked;
 
         UpdateInteractText();
 
