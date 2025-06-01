@@ -21,16 +21,11 @@ public class PlayerMovement : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		if (PauseMenu.Singleton.gamePaused) return;
-
 		MovePlayer();
 	}
 
-	// Update is called once per frame
 	void Update()
 	{
-		if (PauseMenu.Singleton.gamePaused) return;
-
 		GetInputs();
 		LimitSpeed();
 	}
