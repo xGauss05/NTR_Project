@@ -5,31 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public static PauseMenu Singleton;
-
     [SerializeField] GameObject canvas;
     [SerializeField] GameObject player;
 
-    public bool gamePaused = false;
-
-    private void Awake()
-    {
-        if (Singleton != null && Singleton != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            Singleton = this;
-        }
-        DontDestroyOnLoad(this.gameObject);
-    }
-
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            SetPauseState(!gamePaused);
+            SetPauseState(!canvas.activeInHierarchy);
         }
     }
 
@@ -37,7 +20,9 @@ public class PauseMenu : MonoBehaviour
     {
         canvas.SetActive(paused);
 
-        gamePaused = paused;
+        player.GetComponent<PlayerMovement>().enabled = !paused;
+        player.GetComponent<CameraController>().enabled = !paused;
+        player.GetComponent<Interactor>().enabled = !paused;
 
         Cursor.lockState = paused ? CursorLockMode.None : CursorLockMode.Locked;
     }

@@ -18,8 +18,6 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
-        if (PauseMenu.Singleton.gamePaused) return;
-
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensitivity.x;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensitivity.y;
 
