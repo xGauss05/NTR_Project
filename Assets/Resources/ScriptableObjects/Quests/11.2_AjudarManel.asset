@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c97facce829d54aa3f306dfe208edf, type: 3}
   m_Name: 11.2_AjudarManel
   m_EditorClassIdentifier: 
-  questName: Penediment
-  description: Ajuda en Joan
+  questName: "Comprom\xEDs"
+  description: Ajuda en Manel
   objectives:
-  - objectiveName: 
-    requiredAmount: 0
+  - objectiveName: Ajuda en Manel
+    requiredAmount: 1
     currentAmount: 0
     isComplete: 0
