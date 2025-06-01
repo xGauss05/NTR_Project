@@ -1459,44 +1459,44 @@ PrefabInstance:
     - target: {fileID: 61159816947469363, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: json
-      value: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-44.5,\"yPos\":133},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si\",\"parentUIDs\":[18],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":412.5,\"yPos\":130},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No\",\"parentUIDs\":[18],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":187,\"yPos\":-384},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ei
+      value: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":92.5,\"yPos\":-607},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si\",\"parentUIDs\":[18],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":549.5,\"yPos\":-610},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No\",\"parentUIDs\":[18],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":324,\"yPos\":-1124},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ei
         tu que fas?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gu\xE0rdia
-        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":186.5,\"yPos\":-285},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Torno
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":323.5,\"yPos\":-1025},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Torno
         a la cel\xB7la.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
-        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":187.5,\"yPos\":-186},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Doncs
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":324.5,\"yPos\":-926},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Doncs
         ves-hi m\xE9s r\xE0pid!\\r\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gu\xE0rdia
-        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":184.5,\"yPos\":-86},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ja
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":321.5,\"yPos\":-826},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ja
         ho estic fent!\\r\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
-        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":185.5,\"yPos\":14},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":322.5,\"yPos\":-726},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
         em tornis a dirigir la paraula a no ser que jo ho faci abans!\\r\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gu\xE0rdia
-        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":37.5,\"yPos\":208},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ei!
-        Deixa-ho c\xF3rrer! Para de pegar-lo!\\r\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":414.5,\"yPos\":218},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Millor
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":174.5,\"yPos\":-532},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ei!
+        Deixa-ho c\xF3rrer! Para de pegar-lo!\\r\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":551.5,\"yPos\":-522},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Millor
         que no m\u2019hi fiqui, no vull problemes amb l\u2019alcaide despr\xE9s de
         la reuni\xF3. Si es que se li pot dir aix\xED.\\r\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"
-        Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":36.5,\"yPos\":307},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Has
+        Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":173.5,\"yPos\":-433},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Has
         tingut sort que ha arribat el teu salvador.\\r\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Gu\xE0rdia
-        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":37.5,\"yPos\":415},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Est\xE0s
-        b\xE9?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":34.5,\"yPos\":516},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si,
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":174.5,\"yPos\":-325},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Est\xE0s
+        b\xE9?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":171.5,\"yPos\":-224},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si,
         gr\xE0cies. Ja estic acostumat a aquestes pallisses.\\r\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
-        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":34.5,\"yPos\":615},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
-        haurien de passar. Ha d'haver alguna manera d\u2019aturar-ho.\\r\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":36.5,\"yPos\":714},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
-        1 \",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":37.5,\"yPos\":814},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qu\xE8
-        passa? Diga'm, va.\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":35.5,\"yPos\":917},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":171.5,\"yPos\":-125},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        haurien de passar. Ha d'haver alguna manera d\u2019aturar-ho.\\r\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":173.5,\"yPos\":-26},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
+        1 \",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":174.5,\"yPos\":74},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qu\xE8
+        passa? Diga'm, va.\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":172.5,\"yPos\":177},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
         li diguis a ning\xFA que t\u2019ho he dit, per\xF2 hi ha un pres, es diu
         Manel. Es vol amotinar perqu\xE8 se'ns vegi d\u2019una vegada per totes.\\r\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
-        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":38.5,\"yPos\":1015},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":37.5,\"yPos\":1115},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Potser
-        podria parlar amb aquest Manel.*\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":185.5,\"yPos\":114},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Vols
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":175.5,\"yPos\":275},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":174.5,\"yPos\":374},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Potser
+        podria parlar amb aquest Manel.*\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":322.5,\"yPos\":-626},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Vols
         intervenir?\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
       objectReference: {fileID: 0}
     - target: {fileID: 61159816947469363, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 61159816947469363, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 61159816947469363, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
@@ -1511,7 +1511,7 @@ PrefabInstance:
     - target: {fileID: 61159816947469363, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: AddQuest
+      value: ReportProgress
       objectReference: {fileID: 0}
     - target: {fileID: 61159816947469363, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
@@ -1522,12 +1522,72 @@ PrefabInstance:
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: 594c89c21fc935b4cab47374216bba11,
-        type: 2}
+      objectReference: {fileID: 0}
+    - target: {fileID: 61159816947469363, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Ves a la sala de descans
+      objectReference: {fileID: 0}
     - target: {fileID: 61159816947469363, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: QuestSO, Assembly-CSharp
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 341550385112272638, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 341550385112272638, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 341550385112272638, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2100170278}
+    - target: {fileID: 341550385112272638, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 341550385112272638, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReportProgress
+      objectReference: {fileID: 0}
+    - target: {fileID: 341550385112272638, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuestManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 341550385112272638, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: "Fuig de la pres\xF3"
+      objectReference: {fileID: 0}
+    - target: {fileID: 341550385112272638, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: json
+      value: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-108,\"yPos\":288},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"For\xE7a
+        la porta del darrera.\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":112,\"yPos\":289},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Surt
+        per la porta dels treballadors.\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345,\"yPos\":290},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Surt
+        pel garatge.\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":561,\"yPos\":291},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Surt
+        per la porta principal.\",\"parentUIDs\":[1],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"Palanca\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"Targeta\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"Comandament\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"Clau\",\"BoolValue\":false}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":239,\"yPos\":49},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Manel,
+        est\xE0 fet. Les c\xE0meres est\xE0n apagades, podem sortir.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"Palanca\",\"CheckType\":0,\"RequiredValue\":true}],\"NodeUID\":2},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"Targeta\",\"CheckType\":0,\"RequiredValue\":true}],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"Comandament\",\"CheckType\":0,\"RequiredValue\":true}],\"NodeUID\":4},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"Clau\",\"CheckType\":0,\"RequiredValue\":true}],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":240,\"yPos\":172},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bona
+        feina! Ara per on vols sortir?\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Manel\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-114,\"yPos\":375},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Per
+        la porta del darrera.\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":98,\"yPos\":376},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Per
+        la porta dels treballadors.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":320,\"yPos\":376},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Pel
+        garatge.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":544,\"yPos\":377},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Per
+        la porta principal.\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":240,\"yPos\":505},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Perfecte
+        doncs, marxem d'aqu\xED!\\r\xA1\",\"parentUIDs\":[6,7,8,9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Manel\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":243,\"yPos\":619},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Som-hi!\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
       objectReference: {fileID: 0}
     - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
@@ -1589,80 +1649,130 @@ PrefabInstance:
       propertyPath: NodeSerializedDataList.Array.data[11]
       value: 
       objectReference: {fileID: 1324557775}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2100170278}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReportProgress
+      objectReference: {fileID: 0}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuestManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Tria la fugida que vols fer
+      objectReference: {fileID: 0}
+    - target: {fileID: 547335254056533887, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: json
-      value: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":248,\"yPos\":-265},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Faig
-        les meves rondes, no hi t\xE9 m\xE9s misteri.\\r\",\"parentUIDs\":[6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":709,\"yPos\":-149},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qu\xE8
-        creieu que estava fent?\",\"parentUIDs\":[6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":339,\"yPos\":189},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jo
-        nom\xE9s faig la meva feina.\\r\",\"parentUIDs\":[18],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-268,\"yPos\":89},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Us
-        penseu que no dic la veritat?\",\"parentUIDs\":[18],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":320,\"yPos\":316},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
-        son estranyes, per\xF2 avui estava una mica distret.\\r\",\"parentUIDs\":[26],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":52}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-257,\"yPos\":310},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"D\u2019estrany
-        res! \xC9s el que tu m\u2019has manat!\",\"parentUIDs\":[26],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":692,\"yPos\":85},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nom\xE9s
-        faig la meva feina. Tu em pagues, jo treballo. Res m\xE9s.\",\"parentUIDs\":[33],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1191,\"yPos\":-33},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9s
-        insultant aix\xF2 que em dius.\\n\",\"parentUIDs\":[33],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":58}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-260,\"yPos\":537},\"ID\":57,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Coses
-        estranyes? Res \xE9s estrany.\\r\",\"parentUIDs\":[55],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":61}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":230,\"yPos\":425},\"ID\":60,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Aquell
-        gu\xE0rdia ja sabia jo que ens estava espiant.\",\"parentUIDs\":[55],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":269,\"yPos\":-393},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hola,
-        Joan. T\u2019esperava.\\r\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":493,\"yPos\":-390},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Carmino!
-        Com est\xE0s?\\r\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":719,\"yPos\":-390},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+      value: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":244,\"yPos\":-624},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Faig
+        les meves rondes, no hi t\xE9 m\xE9s misteri.\\r\",\"parentUIDs\":[6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":705,\"yPos\":-508},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qu\xE8
+        creieu que estava fent?\",\"parentUIDs\":[6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":335,\"yPos\":-170},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jo
+        nom\xE9s faig la meva feina.\\r\",\"parentUIDs\":[18],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-272,\"yPos\":-270},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Us
+        penseu que no dic la veritat?\",\"parentUIDs\":[18],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":316,\"yPos\":-43},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        son estranyes, per\xF2 avui estava una mica distret.\\r\",\"parentUIDs\":[26],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":52}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-261,\"yPos\":-49},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"D\u2019estrany
+        res! \xC9s el que tu m\u2019has manat!\",\"parentUIDs\":[26],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":688,\"yPos\":-274},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nom\xE9s
+        faig la meva feina. Tu em pagues, jo treballo. Res m\xE9s.\",\"parentUIDs\":[33],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1187,\"yPos\":-392},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9s
+        insultant aix\xF2 que em dius.\\n\",\"parentUIDs\":[33],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":58}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-264,\"yPos\":178},\"ID\":57,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Coses
+        estranyes? Res \xE9s estrany.\\r\",\"parentUIDs\":[55],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":61}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":226,\"yPos\":66},\"ID\":60,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Aquell
+        gu\xE0rdia ja sabia jo que ens estava espiant.\",\"parentUIDs\":[55],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":265,\"yPos\":-752},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hola,
+        Joan. T\u2019esperava.\\r\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":489,\"yPos\":-749},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Carmino!
+        Com est\xE0s?\\r\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":715,\"yPos\":-749},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
         em vinguis amb aquestes. S\xE9 el que est\xE0s intentant. No podr\xE0s acabar
-        amb el Francisco tan f\xE0cilment.\\r\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":948,\"yPos\":-390},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jo
-        no vull pas fer aix\xF2!\\r\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":951,\"yPos\":-291},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-        per quina ra\xF3 est\xE0s passant tant de temps amb el Manel doncs?\\r\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":720,\"yPos\":-291},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9s
+        amb el Francisco tan f\xE0cilment.\\r\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":944,\"yPos\":-749},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jo
+        no vull pas fer aix\xF2!\\r\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":947,\"yPos\":-650},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+        per quina ra\xF3 est\xE0s passant tant de temps amb el Manel doncs?\\r\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":716,\"yPos\":-650},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9s
         un pres que em va demanar que podia fer per tenir m\xE9s temps fora de la
-        cel\xB7la, res m\xE9s.\\r\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":489,\"yPos\":-288},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+        cel\xB7la, res m\xE9s.\\r\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":485,\"yPos\":-647},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
         per qu\xE8 fas tantes voltes a la pres\xF3 doncs? Per qu\xE8 no parles amb
-        alg\xFA directament?\\r\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-8,\"yPos\":-278},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Faig
-        les meves rondes, no hi t\xE9 m\xE9s misteri.\\r\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":941,\"yPos\":-166},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qu\xE8
-        creieu que estava fent?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-22,\"yPos\":-170},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Doncs
-        quines rondes de patrulla m\xE9s estranyes no?\\r\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":223,\"yPos\":-166},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qui
-        hi tenen d\u2019estranyes?\\r\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":455,\"yPos\":-163},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Camines
-        moltes vegades pels mateixos llocs, i sense gaire sentit.\\r\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":458,\"yPos\":-57},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-        Aquesta \xE9s la teva opini\xF3, no et saps les meves rutes.\\r\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":220,\"yPos\":-56},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tranquil,
-        ja et dic jo que aquestes no son. Qu\xE8 busques?\\r\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-21,\"yPos\":-52},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jo
-        no busco res, ja ho sabeu.\\r\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-21,\"yPos\":70},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ja
-        ho veurem.\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-502,\"yPos\":76},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Us
-        penseu que no dic la veritat?\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-503,\"yPos\":193},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Al
-        contrari, creiem que vols m\xE9s del que pots tenir.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-268,\"yPos\":191},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Calla
-        Carmino! Deixa\u2019m parlar a mi.\\r\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-18,\"yPos\":192},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jo
-        us ho dic, estic fent tot el que em dieu.\\r\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jona\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-20,\"yPos\":294},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Per\xF2
-        per qu\xE8 est\xE0s fent aquestes rutes tan estranyes?\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1193,\"yPos\":553},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
-        ho son d'estranyes, jo nom\xE9s faig la meva feina.\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":701,\"yPos\":-55},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Aix\xF2
-        m\u2019ho hauries de dir tu, Joan. T\u2019he estat observant, ho saps oi?\\r\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":948,\"yPos\":-54},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Et
-        tenim respecte Joan, per\xF2 el que fas em preocupa.\\r\",\"parentUIDs\":[32],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":946,\"yPos\":71},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nom\xE9s
-        faig la meva feina. Tu em pagues, jo treballo. Res m\xE9s.\",\"parentUIDs\":[19,35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1192,\"yPos\":423},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9s
-        insultant aix\xF2 que em dius.\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1426,\"yPos\":428},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Porto
+        alg\xFA directament?\\r\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-12,\"yPos\":-637},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Faig
+        les meves rondes, no hi t\xE9 m\xE9s misteri.\\r\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":937,\"yPos\":-525},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qu\xE8
+        creieu que estava fent?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-26,\"yPos\":-529},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Doncs
+        quines rondes de patrulla m\xE9s estranyes no?\\r\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":219,\"yPos\":-525},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qui
+        hi tenen d\u2019estranyes?\\r\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":451,\"yPos\":-522},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Camines
+        moltes vegades pels mateixos llocs, i sense gaire sentit.\\r\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":454,\"yPos\":-416},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+        Aquesta \xE9s la teva opini\xF3, no et saps les meves rutes.\\r\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":216,\"yPos\":-415},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tranquil,
+        ja et dic jo que aquestes no son. Qu\xE8 busques?\\r\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-25,\"yPos\":-411},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jo
+        no busco res, ja ho sabeu.\\r\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-25,\"yPos\":-289},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ja
+        ho veurem.\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-506,\"yPos\":-283},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Us
+        penseu que no dic la veritat?\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-507,\"yPos\":-166},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Al
+        contrari, creiem que vols m\xE9s del que pots tenir.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-272,\"yPos\":-168},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Calla
+        Carmino! Deixa\u2019m parlar a mi.\\r\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-22,\"yPos\":-167},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jo
+        us ho dic, estic fent tot el que em dieu.\\r\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jona\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-24,\"yPos\":-65},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Per\xF2
+        per qu\xE8 est\xE0s fent aquestes rutes tan estranyes?\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1189,\"yPos\":194},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        ho son d'estranyes, jo nom\xE9s faig la meva feina.\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":697,\"yPos\":-414},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Aix\xF2
+        m\u2019ho hauries de dir tu, Joan. T\u2019he estat observant, ho saps oi?\\r\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":944,\"yPos\":-413},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Et
+        tenim respecte Joan, per\xF2 el que fas em preocupa.\\r\",\"parentUIDs\":[32],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":942,\"yPos\":-288},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nom\xE9s
+        faig la meva feina. Tu em pagues, jo treballo. Res m\xE9s.\",\"parentUIDs\":[19,35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1188,\"yPos\":64},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9s
+        insultant aix\xF2 que em dius.\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1422,\"yPos\":69},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Porto
         respectant aquesta feina tant com dius que em respecteu vosaltres, i sembla
-        que jo hi estigui m\xE9s comprom\xE8s.\",\"parentUIDs\":[31,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1419,\"yPos\":297},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nom\xE9s
+        que jo hi estigui m\xE9s comprom\xE8s.\",\"parentUIDs\":[31,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1415,\"yPos\":-62},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nom\xE9s
         vull que els meus companys i els presos tinguin una millor vida, ja sufrim
-        suficient estant aqu\xED.\",\"parentUIDs\":[40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1415,\"yPos\":166},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
-        sufreixes te\u2019n pots anar, ning\xFA t\u2019ho impedeix.\",\"parentUIDs\":[43],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1414,\"yPos\":55},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        suficient estant aqu\xED.\",\"parentUIDs\":[40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1411,\"yPos\":-193},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
+        sufreixes te\u2019n pots anar, ning\xFA t\u2019ho impedeix.\",\"parentUIDs\":[43],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Carmino\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1410,\"yPos\":-305},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
         t\xE9 un millor lloc on anar. Aix\xED que Joan, si vols seguir treballant
-        en aquesta pres\xF3, no vull tonteries.\",\"parentUIDs\":[44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1411,\"yPos\":-51},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
-        cal que m\u2019ho diguis dues vegades.\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":50}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":943,\"yPos\":175},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
-        vull que posis aquest edifici i els que hi treballem en perill, Joan.\\r\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":51}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":704,\"yPos\":178},\"ID\":50,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        en aquesta pres\xF3, no vull tonteries.\",\"parentUIDs\":[44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1407,\"yPos\":-410},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        cal que m\u2019ho diguis dues vegades.\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":50}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":939,\"yPos\":-184},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        vull que posis aquest edifici i els que hi treballem en perill, Joan.\\r\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":51}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":700,\"yPos\":-181},\"ID\":50,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
         ho faria en la vida aix\xF2, Francisco. Saps que respecto els presos i la
-        meva feina.\",\"parentUIDs\":[49],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":710,\"yPos\":293},\"ID\":51,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
-        em facis dubtar-ho.\\r\",\"parentUIDs\":[50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":53}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-496,\"yPos\":296},\"ID\":52,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"D\u2019estrany
-        res! \xC9s el que tu m\u2019has manat!\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":54}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-504,\"yPos\":417},\"ID\":53,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Relaxa\u2019t,
-        qualsevol es pensaria que tens alguna cosa a amagar\u2026\\r\",\"parentUIDs\":[52],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":55}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-253,\"yPos\":418},\"ID\":54,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Doncs
-        no, aquesta opini\xF3 es teva.\",\"parentUIDs\":[53],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":57},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":60}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-10,\"yPos\":418},\"ID\":55,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
-        s\xF3c l'\xFAnic que veu coses estranyes.\\r\",\"parentUIDs\":[54],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":59}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-508,\"yPos\":527},\"ID\":58,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Coses
-        estranyes? Res \xE9s estrany.\\r\",\"parentUIDs\":[57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-506,\"yPos\":649},\"ID\":59,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Molt
+        meva feina.\",\"parentUIDs\":[49],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":706,\"yPos\":-66},\"ID\":51,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        em facis dubtar-ho.\\r\",\"parentUIDs\":[50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":53}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-500,\"yPos\":-63},\"ID\":52,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"D\u2019estrany
+        res! \xC9s el que tu m\u2019has manat!\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":54}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-508,\"yPos\":58},\"ID\":53,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Relaxa\u2019t,
+        qualsevol es pensaria que tens alguna cosa a amagar\u2026\\r\",\"parentUIDs\":[52],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":55}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-257,\"yPos\":59},\"ID\":54,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Doncs
+        no, aquesta opini\xF3 es teva.\",\"parentUIDs\":[53],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":57},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":60}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-14,\"yPos\":59},\"ID\":55,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        s\xF3c l'\xFAnic que veu coses estranyes.\\r\",\"parentUIDs\":[54],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":59}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-512,\"yPos\":168},\"ID\":58,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Coses
+        estranyes? Res \xE9s estrany.\\r\",\"parentUIDs\":[57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-510,\"yPos\":289},\"ID\":59,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Molt
         b\xE9. Pots marxar, per\xF2 que s\xE0pigues que no em convences. T\u2019estarem
-        vigilant. \",\"parentUIDs\":[58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":62}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":228,\"yPos\":522},\"ID\":61,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Aquell
-        gu\xE0rdia ja sabia jo que ens estava espiant.\",\"parentUIDs\":[60],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-15,\"yPos\":522},\"ID\":62,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Perfecte!
+        vigilant. \",\"parentUIDs\":[58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":62}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":224,\"yPos\":163},\"ID\":61,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Aquell
+        gu\xE0rdia ja sabia jo que ens estava espiant.\",\"parentUIDs\":[60],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":219,\"yPos\":293},\"ID\":62,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Perfecte!
         Gr\xE0cies per confessar. Carmino ara mateix detindr\xE0s el nostre company.
         Joan, Digues ad\xE9u a la teva llibertat.\",\"parentUIDs\":[61],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Francisco\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
       objectReference: {fileID: 0}
     - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
@@ -1672,12 +1782,27 @@ PrefabInstance:
       objectReference: {fileID: 2100170278}
     - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2100170278}
+    - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReportProgress
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: AddQuest
       objectReference: {fileID: 0}
     - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
@@ -1687,13 +1812,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: QuestManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: 73a41f9ed64c9e841b3ae87c4dd555d6,
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Evita que descobreixin el pla de fugida
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: feb2f243d6af3d84780a50344b4ef6bb,
         type: 2}
     - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211268795914808578, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: QuestSO, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1218027765971640031, guid: 6512e8a769a639d418978fa41e4ff8bb,
@@ -1751,6 +1896,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2019771548498443443, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
+      propertyPath: json
+      value: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":230,\"yPos\":88},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ei.
+        Com est\xE0s?\\r\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":230.5,\"yPos\":192},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
+        vens a apallissar-me, ja se n\u2019ha ocupat un dels teus amics.\\r\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":233.5,\"yPos\":305},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        es amic meu.\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":235.5,\"yPos\":414},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":248.5,\"yPos\":531},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qu\xE8
+        passa?\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":240.5,\"yPos\":661},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Sembles
+        mes comptetent que els dem\xE9s, aix\xF2 es tot.\\r\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":243.5,\"yPos\":779},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ho
+        intento ser. Aquesta pres\xF3 est\xE0 podrida de dalt a baix, i es dif\xEDcil
+        quan l'arrel del problema surt dels despatxos.\\r\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":245.5,\"yPos\":902},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":246.5,\"yPos\":1019},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No
+        li diguis a ning\xFA que t\u2019ho he dit, per\xF2 hi ha un pres, es diu
+        Manel. Es vol amotinar perqu\xE8 se'ns vegi d\u2019una vegada per totes.\\r\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pres
+        1\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":243.5,\"yPos\":1135},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":244.5,\"yPos\":1242},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Potser
+        podria parlar amb aquest Manel.*\\r\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2019771548498443443, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1783,7 +1948,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: e678d5ee3c32aae478c9863e9cd8bede,
+      objectReference: {fileID: 11400000, guid: cd1760c24fc114743bfb18b91813fdd8,
         type: 2}
     - target: {fileID: 2019771548498443443, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
@@ -1793,15 +1958,15 @@ PrefabInstance:
     - target: {fileID: 3035468011820255795, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: json
-      value: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":201,\"yPos\":-284},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Un
-        altre cop aquest ab\xFAs. Aquesta pres\xF3 no pot seguir aix\xED.\\r\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":202.5,\"yPos\":-179},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qu\xE8
-        ha passat?\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Sofia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":207.5,\"yPos\":-72},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"He
+      value: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":236,\"yPos\":109},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Un
+        altre cop aquest ab\xFAs. Aquesta pres\xF3 no pot seguir aix\xED.\\r\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":239.5,\"yPos\":215},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Qu\xE8
+        ha passat?\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Sofia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":244.5,\"yPos\":322},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"He
         anat a parlar amb l\u2019alcaide, no vol millorar-nos les condicions. I per
         si no fos prou, venint cap aqu\xED he vist com li donaven una pallissa a
-        un pobre pres.\\r\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":205.5,\"yPos\":36},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+        un pobre pres.\\r\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":242.5,\"yPos\":430},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
         Podr\xEDem parlar amb el departament de just\xEDcia, o amb el responsable
-        de presons.\\r\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Sofia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":209.5,\"yPos\":143},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Potser
-        els presos tenen coses a dir, tamb\xE9 els haur\xEDem de preguntar.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":207.5,\"yPos\":254},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bona
+        de presons.\\r\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Sofia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":246.5,\"yPos\":537},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Potser
+        els presos tenen coses a dir, tamb\xE9 els haur\xEDem de preguntar.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Joan\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":244.5,\"yPos\":648},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bona
         idea! Ves a parlar amb alguns, jo comen\xE7ar\xE9 a redactar un informe.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Sofia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
       objectReference: {fileID: 0}
     - target: {fileID: 3035468011820255795, guid: 6512e8a769a639d418978fa41e4ff8bb,
@@ -1847,6 +2012,11 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 3035468011820255795, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3035468011820255795, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: QuestSO, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -1859,6 +2029,11 @@ PrefabInstance:
         type: 3}
       propertyPath: NodeSerializedDataList.Array.size
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484089201499696240, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: NodeSerializedDataList.Array.data[14]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5484089201499696240, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
@@ -1896,6 +2071,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: f5b063eb520b35b4bb7da3486d5092fc,
         type: 2}
+    - target: {fileID: 5484089201499696240, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5484089201499696240, guid: 6512e8a769a639d418978fa41e4ff8bb,
         type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1997,8 +2177,37 @@ PrefabInstance:
     - {fileID: 6948237117193269901, guid: 6512e8a769a639d418978fa41e4ff8bb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4300853939208482361, guid: 6512e8a769a639d418978fa41e4ff8bb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1799474169526537242}
   m_SourcePrefab: {fileID: 100100000, guid: 6512e8a769a639d418978fa41e4ff8bb, type: 3}
+--- !u!1 &1799474169526537241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4300853939208482361, guid: 6512e8a769a639d418978fa41e4ff8bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1799474169526537240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1799474169526537242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799474169526537241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 6
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

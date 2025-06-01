@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5c97facce829d54aa3f306dfe208edf, type: 3}
-  m_Name: 11_Sofia_3
+  m_Name: 4_InvestigaPreso
   m_EditorClassIdentifier: 
-  questName: Sofia
-  description: Parla amb la Sofia
+  questName: "Investiga la Pres\xF3"
+  description: "Investiga i busca en la pres\xF3 formes d'escapar."
   objectives:
-  - objectiveName: Parla amb la Sofia
-    requiredAmount: 1
+  - objectiveName: "Investiga la pres\xF3"
+    requiredAmount: 2
     currentAmount: 0
     isComplete: 0

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5c97facce829d54aa3f306dfe208edf, type: 3}
-  m_Name: 8_EvitaPlaFugida
+  m_Name: 5_ConfrontaCameres
   m_EditorClassIdentifier: 
-  questName: El pla
-  description: Evita que descobreixin el pla de fugida
+  questName: "Gu\xE0rdia de les C\xE0meres"
+  description: "Confronta el gu\xE0rdia de les c\xE0meres\r"
   objectives:
-  - objectiveName: Evita que descobreixin el pla de fugida
+  - objectiveName: "Confronta el gu\xE0rdia"
     requiredAmount: 1
     currentAmount: 0
     isComplete: 0
