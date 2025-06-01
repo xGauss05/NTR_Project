@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c97facce829d54aa3f306dfe208edf, type: 3}
   m_Name: 11.1_ConfrontarManel
   m_EditorClassIdentifier: 
-  questName: Ajustament de comptes
-  description: Confronta en Joan
+  questName: Penediment
+  description: Confronta en Manel
   objectives:
-  - objectiveName: Confronta en Joan
+  - objectiveName: Confronta en Manel
     requiredAmount: 1
     currentAmount: 0
     isComplete: 0
