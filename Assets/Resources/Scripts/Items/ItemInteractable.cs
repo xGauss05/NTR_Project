@@ -7,6 +7,7 @@ public class ItemInteractable : MonoBehaviour, IInteractable
     public string interactableText { get; private set; }
     public bool canInteract { get; set; } = true;
 
+    [SerializeField] Sofia_Manager sofiaManager;
     void Awake()
     {
         interactableText = item.name;
@@ -16,5 +17,6 @@ public class ItemInteractable : MonoBehaviour, IInteractable
     {
         ItemManager.Singleton.GiveItemToPlayer(item);
         gameObject.SetActive(false);
+        sofiaManager.canInteract = true;
     }
 }
