@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DialogueEditor;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Francisco_Manager : MonoBehaviour, IInteractable
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] string interactText;
+    public string interactableText => interactText;
 
-    // Update is called once per frame
-    void Update()
+    //[SerializeField] NPCConversation dialogue;
+
+    public void Interact(Interactor interactor)
     {
-        
+
     }
 }
