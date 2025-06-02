@@ -840,8 +840,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1643951744868074138}
   - component: {fileID: 5132770280225260087}
-  - component: {fileID: 754830254984066339}
-  - component: {fileID: 138562208128387594}
   m_Layer: 0
   m_Name: Francisco
   m_TagString: Untagged
@@ -899,30 +897,6 @@ CapsuleCollider:
   m_Height: 1.58
   m_Direction: 1
   m_Center: {x: 0, y: 0.84, z: 0}
---- !u!114 &754830254984066339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7167491822447906133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 269a512215174474295fddfa4092ba9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &138562208128387594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7167491822447906133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c85fccfc0dfcb30448a6f84524af5b88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7375028370099086588
 GameObject:
   m_ObjectHideFlags: 0
