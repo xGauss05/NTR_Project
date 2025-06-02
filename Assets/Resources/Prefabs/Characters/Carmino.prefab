@@ -242,6 +242,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93988067a0bcf74bb466acf9eb30ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
+  dialogue9: {fileID: 0}
+  parlaCarmino: {fileID: 11400000, guid: c380da95668f4b244bc37b12fc20ba11, type: 2}
 --- !u!1 &4203386577927215788
 GameObject:
   m_ObjectHideFlags: 0
