@@ -418,8 +418,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parlaAmbLaSofia: {fileID: 11400000, guid: 86e80860304e1d042905edff4f8fa342, type: 2}
-  buscaFormesDescapar: {fileID: 11400000, guid: f5b063eb520b35b4bb7da3486d5092fc,
-    type: 2}
+  reportaProgres: {fileID: 11400000, guid: f573a09d22a47b9438ee59cbcfb8dcad, type: 2}
 --- !u!1 &4203386577927215788
 GameObject:
   m_ObjectHideFlags: 0

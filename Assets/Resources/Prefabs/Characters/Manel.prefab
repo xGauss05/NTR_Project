@@ -573,6 +573,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269a512215174474295fddfa4092ba9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
+  dialogue3: {fileID: 0}
+  dialogue8: {fileID: 0}
+  dialogue10: {fileID: 0}
+  parlaPresCella: {fileID: 11400000, guid: cd1760c24fc114743bfb18b91813fdd8, type: 2}
+  parlaManelObjectes: {fileID: 11400000, guid: e37a21f9825de484f8bf5ab9c184ae23, type: 2}
+  triaLaFugida: {fileID: 11400000, guid: feb2f243d6af3d84780a50344b4ef6bb, type: 2}
 --- !u!1 &7375028370099086588
 GameObject:
   m_ObjectHideFlags: 0
