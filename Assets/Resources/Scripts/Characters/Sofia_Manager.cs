@@ -10,6 +10,8 @@ public class Sofia_Manager : MonoBehaviour, IInteractable
 
     public bool canInteract { get; set; } = false;
 
+    public bool combatIntervened { get; set; } = false;
+
     [SerializeField] NPCConversation dialogue2;
 
     //Optional dialogues
@@ -21,7 +23,10 @@ public class Sofia_Manager : MonoBehaviour, IInteractable
     public void Interact(Interactor interactor)
     {
         if (QuestManager.Singleton.activeQuests.Contains(parlaAmbLaSofia))
+        {
             ConversationManager.Instance.StartConversation(dialogue2);
+            ConversationManager.Instance.SetBool("hasIntervened", combatIntervened);
+        }
 
         if (QuestManager.Singleton.activeQuests.Contains(reportaProgres))
             SelectOptionalDialogue();
