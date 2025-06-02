@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8224465459253044993}
+  - component: {fileID: -761973650118888681}
   m_Layer: 0
   m_Name: CarKey
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   - {fileID: 1240494262339116214}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-761973650118888681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3532546824822999194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a3eabaf7e0f5f4986965b6831ab0ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: f5d0d9788d321594c9518372dd839b6f, type: 2}
 --- !u!1001 &1638650046052268893
 PrefabInstance:
   m_ObjectHideFlags: 0
