@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e412099bb43a81244bad8173a1ed6c01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactText: 
+  interactText: Sofia
   dialogue2: {fileID: 0}
   optionalDialogues:
   - {fileID: 0}

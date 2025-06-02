@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba68273980e9d034ba3e2222bb77328d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactText: 
+  interactText: Pres Apallissat
   dialogue2A: {fileID: 0}
   parlaPresApallissat: {fileID: 11400000, guid: de90b3985bd0b4848a77816b20410fba,
     type: 2}

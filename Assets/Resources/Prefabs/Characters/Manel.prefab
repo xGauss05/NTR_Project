@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269a512215174474295fddfa4092ba9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactText: 
+  interactText: Manel
   dialogue3: {fileID: 0}
   dialogue8: {fileID: 0}
   dialogue10: {fileID: 0}
