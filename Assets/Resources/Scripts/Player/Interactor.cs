@@ -32,7 +32,8 @@ public class Interactor : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            GetInteractable()?.Interact(this);
+            if (GetInteractable() != null && GetInteractable().canInteract)
+                GetInteractable()?.Interact(this);
         }
     }
 
@@ -52,7 +53,8 @@ public class Interactor : MonoBehaviour
     void UpdateInteractText()
     {
         if (Physics.Raycast(playerCamera.position, playerCamera.forward, out RaycastHit hitInfo, interactDistance, ~0, QueryTriggerInteraction.Ignore) &&
-            hitInfo.transform.GetComponent<IInteractable>() != null)
+            hitInfo.transform.GetComponent<IInteractable>() != null &&
+            GetInteractable().canInteract)
         {
             SetInteractText(true, hitInfo.transform.GetComponent<IInteractable>().interactableText);
         }

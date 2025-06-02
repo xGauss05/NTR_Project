@@ -8,6 +8,8 @@ public class NPC_Test : MonoBehaviour, IInteractable
     [SerializeField] string interactText;
     public string interactableText => interactText;
 
+    public bool canInteract { get; set; } = false;
+
     [SerializeField] NPCConversation conversationToShow;
 
     public void Interact(Interactor interactor)

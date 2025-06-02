@@ -7,6 +7,7 @@ public class Prisioner_tmp_dialogue : MonoBehaviour, IInteractable
 {
     [SerializeField] string interactText;
     public string interactableText => interactText;
+    public bool canInteract { get; set; } = false;
 
     [SerializeField] NPCConversation dialogue1;
     [SerializeField] NPCConversation dialogue2;

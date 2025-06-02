@@ -8,6 +8,8 @@ public class Carmino_Manager : MonoBehaviour, IInteractable
     [SerializeField] string interactText;
     public string interactableText => interactText;
 
+    public bool canInteract { get; set; } = false;
+
     //[SerializeField] NPCConversation dialogue;
 
     public void Interact(Interactor interactor)
