@@ -53,6 +53,13 @@ public class QuestManager : MonoBehaviour
             activeQuests.Remove(quest);
             Debug.Log($"Quest removed: {quest.questName}");
             OnQuestListChanged.Invoke();
+
+            //This fixes SOs. This should not be here.
+            foreach (QuestObjective q in quest.objectives)
+            {
+                q.currentAmount = 0;
+                q.isComplete = false;
+            }
         }
     }
 
