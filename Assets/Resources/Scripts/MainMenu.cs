@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("1_Cinematic");
+        Transitioner.Singleton.FadeToBlack("1_Cinematic");
     }
 
     public void ExitGame()
