@@ -7,10 +7,13 @@ public class CameraRotation : MonoBehaviour
 {
     [SerializeField] const float rotSpeed = 15.0f;
     [SerializeField] NPCConversation cinematicDialogue;
-    
+
     private void Start()
     {
-        ConversationManager.Instance.StartConversation(cinematicDialogue);
+        if (cinematicDialogue != null)
+        {
+            ConversationManager.Instance.StartConversation(cinematicDialogue);
+        }
     }
 
     // Update is called once per frame
