@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class QuestManager : MonoBehaviour
 {
+    [SerializeField] QuestSO defaultQuest;
+
     public static QuestManager Singleton { get; private set; }
 
     public List<QuestSO> activeQuests = new List<QuestSO>();
@@ -29,6 +31,8 @@ public class QuestManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
         #endregion Singleton
+
+        AddQuest(defaultQuest);
     }
 
     public void AddQuest(QuestSO quest)
@@ -96,6 +100,4 @@ public class QuestManager : MonoBehaviour
             }
         }
     }
-
-
 }

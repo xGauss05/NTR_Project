@@ -44,4 +44,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853c4a3738300374b89660bd3fab5b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultQuest: {fileID: 11400000, guid: 594c89c21fc935b4cab47374216bba11, type: 2}
   activeQuests: []
+  OnQuestListChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnQuestProgressUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnQuestCompletion:
+    m_PersistentCalls:
+      m_Calls: []
