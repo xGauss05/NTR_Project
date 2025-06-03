@@ -48,6 +48,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 4c12e44793fd1084bb73ff776c3d268d, type: 2}
   sofiaManager: {fileID: 0}
+  sofiaQuest: {fileID: 11400000, guid: f573a09d22a47b9438ee59cbcfb8dcad, type: 2}
+  exploreQuest: {fileID: 11400000, guid: f5b063eb520b35b4bb7da3486d5092fc, type: 2}
+  manelQuest: {fileID: 11400000, guid: e37a21f9825de484f8bf5ab9c184ae23, type: 2}
 --- !u!65 &2879481254509969106
 BoxCollider:
   m_ObjectHideFlags: 0

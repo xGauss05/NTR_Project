@@ -15,6 +15,7 @@ public class QuestManager : MonoBehaviour
     public UnityEvent OnQuestListChanged = new UnityEvent();
     public UnityEvent OnQuestProgressUpdated = new UnityEvent();
     public UnityEvent OnQuestCompletion = new UnityEvent();
+    public UnityEvent<QuestSO> OnQuestCompletedParam = new UnityEvent<QuestSO>();
 
     void Awake()
     {
@@ -82,6 +83,7 @@ public class QuestManager : MonoBehaviour
             RemoveQuest(quest);
             Debug.Log($"Quest completed: {quest.questName}");
             OnQuestCompletion.Invoke();
+            OnQuestCompletedParam.Invoke(quest);
         }
     }
 

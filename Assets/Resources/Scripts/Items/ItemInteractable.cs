@@ -8,15 +8,33 @@ public class ItemInteractable : MonoBehaviour, IInteractable
     public bool canInteract { get; set; } = true;
 
     [SerializeField] Sofia_Manager sofiaManager;
-    void Awake()
+    [SerializeField] private QuestSO sofiaQuest;
+
+    [SerializeField] private QuestSO exploreQuest;
+    [SerializeField] private QuestSO manelQuest;
+
+    void Start()
     {
         interactableText = item.name;
+        QuestManager.Singleton.OnQuestCompletedParam.AddListener(CheckEscape);
     }
 
     public void Interact(Interactor interactor)
     {
         ItemManager.Singleton.GiveItemToPlayer(item);
         gameObject.SetActive(false);
+
+        QuestManager.Singleton.ReportProgress("Investiga la presó");
+        
         sofiaManager.canInteract = true;
+        QuestManager.Singleton.AddQuest(sofiaQuest);
+    }
+
+    void CheckEscape(QuestSO completedQuest)
+    {
+        if (completedQuest == exploreQuest)
+        {
+            QuestManager.Singleton.AddQuest(manelQuest);
+        }
     }
 }
