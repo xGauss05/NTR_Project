@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
 
@@ -18,6 +16,8 @@ public class Manel_Manager : MonoBehaviour, IInteractable
     [SerializeField] QuestSO parlaManelObjectes;
     [SerializeField] QuestSO triaLaFugida;
 
+    [SerializeField] ItemSO key, card, car, crowbar;
+
     public void Interact(Interactor interactor)
     {
         if (QuestManager.Singleton.activeQuests.Contains(parlaPresCella))
@@ -27,6 +27,21 @@ public class Manel_Manager : MonoBehaviour, IInteractable
             ConversationManager.Instance.StartConversation(dialogue8);
 
         if (QuestManager.Singleton.activeQuests.Contains(triaLaFugida))
+        {
             ConversationManager.Instance.StartConversation(dialogue10);
+
+            if(ItemManager.Singleton.CheckItemInPlayer(key))
+                ConversationManager.Instance.SetBool("Clau", true);
+
+            if (ItemManager.Singleton.CheckItemInPlayer(card))
+                ConversationManager.Instance.SetBool("Targeta", true); 
+
+            if (ItemManager.Singleton.CheckItemInPlayer(car))
+                ConversationManager.Instance.SetBool("Comandament", true);
+
+            if (ItemManager.Singleton.CheckItemInPlayer(crowbar))
+                ConversationManager.Instance.SetBool("Palanca", true);
+
+        }
     }
 }

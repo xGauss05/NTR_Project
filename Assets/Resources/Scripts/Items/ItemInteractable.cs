@@ -13,6 +13,8 @@ public class ItemInteractable : MonoBehaviour, IInteractable
     [SerializeField] private QuestSO exploreQuest;
     [SerializeField] private QuestSO manelQuest;
 
+    [SerializeField] private Manel_Manager manelManager;
+
     void Start()
     {
         interactableText = item.name;
@@ -35,6 +37,7 @@ public class ItemInteractable : MonoBehaviour, IInteractable
         if (completedQuest == exploreQuest)
         {
             QuestManager.Singleton.AddQuest(manelQuest);
+            manelManager.canInteract = true;
         }
     }
 }

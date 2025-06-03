@@ -580,6 +580,10 @@ MonoBehaviour:
   parlaPresCella: {fileID: 11400000, guid: cd1760c24fc114743bfb18b91813fdd8, type: 2}
   parlaManelObjectes: {fileID: 11400000, guid: e37a21f9825de484f8bf5ab9c184ae23, type: 2}
   triaLaFugida: {fileID: 11400000, guid: feb2f243d6af3d84780a50344b4ef6bb, type: 2}
+  key: {fileID: 11400000, guid: 4c12e44793fd1084bb73ff776c3d268d, type: 2}
+  card: {fileID: 11400000, guid: 4bac4cce585f0e24abfba640b44f58fe, type: 2}
+  car: {fileID: 11400000, guid: f5d0d9788d321594c9518372dd839b6f, type: 2}
+  crowbar: {fileID: 11400000, guid: a4e2c9d03ce609947b7c6dc2e7654d98, type: 2}
 --- !u!1 &7375028370099086588
 GameObject:
   m_ObjectHideFlags: 0
