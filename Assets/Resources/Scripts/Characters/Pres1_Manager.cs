@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
 
@@ -8,7 +6,7 @@ public class Pres1_Manager : MonoBehaviour, IInteractable
     [SerializeField] string interactText;
     public string interactableText => interactText;
 
-    public bool canInteract { get; set; } = false;
+    public bool canInteract { get; set; } = true;
 
     [SerializeField] NPCConversation dialogue1;
     [SerializeField] NPCConversation dialogue2A;

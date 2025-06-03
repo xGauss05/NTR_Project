@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Interactor : MonoBehaviour
@@ -9,12 +7,21 @@ public class Interactor : MonoBehaviour
 
     [SerializeField] GameObject interactText;
 
+    private PlayerMovement playerMovement;
+    private CameraController cameraController;
+
+    private void Awake()
+    {
+        playerMovement = GetComponent<PlayerMovement>();
+        cameraController = GetComponent<CameraController>();
+    }
+
     void Update()
     {
         if (DialogueEditor.ConversationManager.Instance.IsConversationActive)
         {
-            GetComponent<PlayerMovement>().enabled = false;
-            GetComponent<CameraController>().enabled = false;
+            playerMovement.enabled = false;
+            cameraController.enabled = false;
 
             Cursor.lockState = CursorLockMode.None;
 
@@ -23,8 +30,8 @@ public class Interactor : MonoBehaviour
             return;
         }
 
-        GetComponent<PlayerMovement>().enabled = true;
-        GetComponent<CameraController>().enabled = true;
+        playerMovement.enabled = true;
+        cameraController.enabled = true;
 
         Cursor.lockState = CursorLockMode.Locked;
 
