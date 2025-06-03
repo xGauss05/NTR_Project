@@ -13,7 +13,7 @@ public class ExitDoor : MonoBehaviour, IInteractable
     {
         if (ItemManager.Singleton.CheckItemInPlayer(itemToOpen))
         {
-            Transitioner.Singleton.FadeToBlack("0_MainMenu");
+            Transitioner.Singleton.FadeToBlack("3_Escape");
         }
         else
         {
