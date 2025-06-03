@@ -238,7 +238,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Pres Apallissat
+  dialogue1: {fileID: 0}
   dialogue2A: {fileID: 0}
+  defaultQuest: {fileID: 11400000, guid: 594c89c21fc935b4cab47374216bba11, type: 2}
   parlaPresApallissat: {fileID: 11400000, guid: de90b3985bd0b4848a77816b20410fba,
     type: 2}
 --- !u!1 &7375028370099086588
