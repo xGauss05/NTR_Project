@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 4_2_SofiaProgres
   m_EditorClassIdentifier: 
   questName: Informa a la Sofia (opcional)
-  description: "Ves a exlicar a la Sofia el teu progr\xE9s."
+  description: "Ves a explicar a la Sofia el teu progr\xE9s."
   objectives:
   - objectiveName: Informa a la Sofia
     requiredAmount: 1
