@@ -8679,11 +8679,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sala_Alcaide
       objectReference: {fileID: 0}
-    - target: {fileID: 8403333600000762356, guid: 237f44fd04f62b64c9d2a1975bff7ebc,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b194101855def2b479e7188f6945ee5f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8883,6 +8878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sala_Descans
+      objectReference: {fileID: 0}
+    - target: {fileID: 3429836904051773745, guid: bcd47b4d681b86d49850f0b989b07b56,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.395
       objectReference: {fileID: 0}
     - target: {fileID: 3557746451980381326, guid: bcd47b4d681b86d49850f0b989b07b56,
         type: 3}
