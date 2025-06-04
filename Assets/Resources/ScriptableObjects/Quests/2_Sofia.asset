@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 2_Sofia
   m_EditorClassIdentifier: 
   questName: Sofia
-  description: Parla amb la Sofia
+  description: Parla amb la Sofia a la sala de descans.
   objectives:
   - objectiveName: Parla amb la Sofia
     requiredAmount: 1

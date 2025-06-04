@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1_Descans
   m_EditorClassIdentifier: 
   questName: Descans
-  description: Atura la baralla
+  description: "Atura la baralla al passad\xEDs."
   objectives:
   - objectiveName: Ves a la sala de descans
     requiredAmount: 1

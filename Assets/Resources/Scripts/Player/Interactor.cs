@@ -3,7 +3,7 @@ using UnityEngine;
 public class Interactor : MonoBehaviour
 {
     [SerializeField] private Transform playerCamera;
-    [SerializeField] float interactDistance = 1.5f;
+    [SerializeField] float interactDistance = 2.5f;
 
     [SerializeField] GameObject interactText;
 

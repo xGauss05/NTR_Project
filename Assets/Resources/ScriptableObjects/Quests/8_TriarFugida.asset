@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 8_TriarFugida
   m_EditorClassIdentifier: 
   questName: Es el moment
-  description: Tria la fugida que vols fer
+  description: Tria la fugida que vols fer amb el Manel.
   objectives:
   - objectiveName: Tria la fugida que vols fer
     requiredAmount: 1
