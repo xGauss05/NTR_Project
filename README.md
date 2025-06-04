@@ -3,7 +3,7 @@
 A policeman (Joan) has been guarding the prison for years. It is a very monotonous and repetitive job, and in all these years he has come to know the prisoners and establish almost friendly relationships with some of them. The salary scale is not much better either, since despite being with some of the most dangerous people in the territory the pay is quite low and with few future projections. After a long time thinking about it, he decides to confront the prison warden to ask for a salary increase, and he flatly refuses despite Joan's good arguments. Angry and wanting revenge, he goes to some prisoners with whom he has established a more trusting relationship and listens to them planning an escape. With all the accumulated anger, he decides to help them in their quest and not only will he have to face routines that his colleagues are more than familiar with, but he will also have to confront them with his principles and assess whether he will become everything he swore to destroy.
 
 ## LATEST RELEASE
-https://github.com/xGauss05/NTR_Project/releases/tag/Breakout-v.0.1
+https://github.com/xGauss05/NTR_Project/releases/tag/Breakout-v.1.0
 
 ## TEAM
 
